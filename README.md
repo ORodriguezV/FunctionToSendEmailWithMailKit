@@ -42,6 +42,7 @@ However, depending on the webhook that you use, you should modify the "EmailToSe
 
 ## Some considerations
 * If the "To" email is not provided, the function will use the same email as the "From"
+* You may provide more than one email address for recipients by separating them with a semicolon (;)
 * When deploying the function to Azure, make sure to configure all the "Email..." parameters in the application settings
 * If you require more security for your email credentials, you may choose to use the Key Vault service instead
 
